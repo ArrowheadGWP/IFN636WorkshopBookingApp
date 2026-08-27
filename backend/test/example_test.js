@@ -157,9 +157,9 @@ describe('Update Workshop booking Test', () => {
 
 
 
-describe('GetTask Function Test', () => {
+describe('Get Workshop Times Function Test', () => {
 
-  it('should return tasks for the given user', async () => {
+  it('should return all workshop Bookings for the given user', async () => {
     // Mock user ID
     const userId = new mongoose.Types.ObjectId();
 
@@ -217,9 +217,9 @@ describe('GetTask Function Test', () => {
 
 
 
-describe('DeleteTask Function Test', () => {
+describe('Delete Workshop Booking Function Test', () => {
 
-  it('should delete a task successfully', async () => {
+  it('should delete the Workshop Booking successfully', async () => {
     // Mock request data
     const req = { params: { id: new mongoose.Types.ObjectId().toString() } };
 
@@ -247,7 +247,7 @@ describe('DeleteTask Function Test', () => {
     findByIdStub.restore();
   });
 
-  it('should return 404 if task is not found', async () => {
+  it('should return 404 if Workshop Booking is not found', async () => {
     // Stub Task.findById to return null
     const findByIdStub = sinon.stub(Task, 'findById').resolves(null);
 
