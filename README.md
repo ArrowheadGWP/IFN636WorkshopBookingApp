@@ -6,8 +6,8 @@
 * Login
 * Logout
 * Update profile
-* Add tasks
-* View tasks
+* Add Workshop Booking
+* View Workshop Booking Calander
 * Update tasks
 * Delete tasks
 
