@@ -1,6 +1,6 @@
 **Workshop Booking Application Overview:The Workshop Booking application is designed to help users and groups of large individuals to manage workshops so that people aren't overcrowding them when they want to do some work by providing them a user-friendly interface for creating, viewing, updating, deleting and genrally managing bookings of workshops within a facility. It includes esscential features to insure a secure user account such as user authentication, user sign up and login to pre-existing accounts, profile management to update profilie information, input validation for fields such as email addresses and phone numbers.
 
-the
+
 
  It includes essential features such as secure user authentication, allowing individuals to sign up and log in to their accounts, as well as profile management to update personal information. With built-in validation such as input field validation and email validation, the application ensures a seamless user experience while enhancing productivity and organization in both personal and professional settings. **
 
