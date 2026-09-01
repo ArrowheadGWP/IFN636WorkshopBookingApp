@@ -1,20 +1,31 @@
 **Workshop Booking Application Overview:The Workshop Booking application is designed to help users and groups of large individuals to manage workshops so that people aren't overcrowding them when they want to do some work by providing them a user-friendly interface for creating, viewing, updating, deleting and genrally managing bookings of workshops within a facility. It includes esscential features to insure a secure user account such as user authentication, user sign up and login to pre-existing accounts, profile management to update profilie information, input validation for fields such as email addresses and phone numbers.
-
-
-
- It includes essential features such as secure user authentication, allowing individuals to sign up and log in to their accounts, as well as profile management to update personal information. With built-in validation such as input field validation and email validation, the application ensures a seamless user experience while enhancing productivity and organization in both personal and professional settings. **
+The app will allow the users to manage the facility usage of workshops and avoid confilicting times with this booking application. **
 
 **This apps **contain** the following features:**
 
 * Signup
 * Login
 * Logout
-* Update profile
+* Update profile - to do
 * Add Workshop Booking
 * View Workshop Booking Calander
-* Update Workshop Booking
-* Delete Personal Workshop Booking
-* Admin/Faculty ability to delete others workshop booking
+* Update Workshop Booking - to do
+* Delete Personal Workshop Booking - to do
+* Admin/Faculty ability to delete others workshop booking - to do
+
+
+**Known Limitations:**
+The coding here was created and later updated from the tutorial classess, as such the I had included a bunch of function for my application, as a result the test code can be seen to have these features. 
+While I am able to access the git folder on the EC2 instance, for some reason, it is unable to fully link up properly to the repository and it fails to properly grab all the branches on it. I am unable to fix this problem but I have shown that it does seem to access the repository.
+
+**Setup:**
+In order for this app to work, you must first download it into the user folder within your computer. once you have confirmed that it is on your computer, go to command prompt and type:
+
+cd IFN636WorkshopBookingApp
+cd backend
+npm run test
+
+---
 
 **This **app**lication** is**almost **a** precompiled** app**. However, students will develop some features,**such as adding tasks, viewing tasks, updating tasks, and **deleting** tasks**. **Students** will interact with GitHub when they develop the features.**
 
